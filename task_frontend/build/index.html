@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+  <title>Task Manager App</title>
+  <!-- Include any additional meta tags or links here -->
+
+  <!-- Add link to the manifest.json file -->
+  <link rel="manifest" href="/manifest.json" />
+
+  <!-- Add any other stylesheets or CSS files if needed -->
+</head>
+<body>
+  <noscript>
+    You need to enable JavaScript to run this app.
+  </noscript>
+  <div id="root"></div>
+  <!-- The root div where your React app will be rendered -->
+
+  <!-- Include the React production build -->
+  <script src="/static/js/main.3118b037.js"></script>
+  <script src="/static/js/787.942e397c.chunk.js"></script>
+
+  <!-- Initialize the React app -->
+  <script>
+    // ReactDOM is part of the React library
+    ReactDOM.render(
+      // Include your main component (TaskManager in this case)
+      React.createElement(TaskManager),
+      document.getElementById('root')
+    );
+  </script>
+</body>
+</html>
